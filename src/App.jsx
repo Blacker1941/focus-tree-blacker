@@ -12,7 +12,8 @@ import '@xyflow/react/dist/style.css';
 import './css/app.css';
 
 import { initialNodes } from './data';
-
+import { TfiSave } from "react-icons/tfi";
+import { LuArchiveRestore } from "react-icons/lu";
 
 const initialEdges = [];
 
@@ -32,12 +33,21 @@ function Flow() {
 
   const [message, setMessage] = useState('');
 
-
   useEffect(() => {
     const updatedNodes = initialNodes.map((newNode) => {
       const existingNode = nodes.find((node) => node.id === newNode.id);
 
-      return existingNode ? { ...existingNode, data: { ...existingNode.data, ...newNode.data } } : newNode;
+      const updatedData = { ...newNode.data };
+      if (updatedData.label) {
+        updatedData.label = updatedData.label.replace(/لوکاس هاست/g, 'ایندکس بی جی');
+      }
+      if (updatedData.description) {
+        updatedData.description = updatedData.description.replace(/لوکاس هاست/g, 'ایندکس بی جی');
+      }
+
+      return existingNode
+        ? { ...existingNode, data: { ...existingNode.data, ...updatedData } }
+        : { ...newNode, data: updatedData };
     });
 
     const isNodesChanged = !updatedNodes.every((node, index) =>
@@ -50,14 +60,11 @@ function Flow() {
     }
   }, [initialNodes, nodes]);
 
-
   const onNodesChange = useCallback(
     (changes) => {
       setNodes((nds) => {
         const updatedNodes = applyNodeChanges(changes, nds);
-
         localStorage.setItem('nodes', JSON.stringify(updatedNodes));
-
         return updatedNodes;
       });
     },
@@ -107,6 +114,47 @@ function Flow() {
     return { stroke: 'gray', strokeWidth: 0.5 };
   };
 
+  const handleBackup = () => {
+    const backupData = {
+      nodes: JSON.parse(localStorage.getItem('nodes')) || [],
+      edges: JSON.parse(localStorage.getItem('edges')) || [],
+    };
+    const blob = new Blob([JSON.stringify(backupData, null, 2)], {
+      type: 'application/json',
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'backup.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setMessage('پشتیبان‌گیری انجام شد!');
+    setTimeout(() => setMessage(''), 3000);
+  };
+
+  const handleRestore = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        setNodes(data.nodes || []);
+        setEdges(data.edges || []);
+        localStorage.setItem('nodes', JSON.stringify(data.nodes || []));
+        localStorage.setItem('edges', JSON.stringify(data.edges || []));
+        setMessage('بازیابی انجام شد!');
+        setTimeout(() => setMessage(''), 3000);
+      } catch (error) {
+        setMessage('خطا در خواندن فایل پشتیبان.');
+        setTimeout(() => setMessage(''), 3000);
+      }
+    };
+    reader.readAsText(file);
+  };
+
   const handleNodeMouseEnter = useCallback((event, node) => {
     const { clientX, clientY } = event;
     setTooltip({
@@ -114,7 +162,7 @@ function Flow() {
       x: clientX,
       y: clientY,
       description: node.data?.description || 'اینجارو یادت رفت بنویسی ',
-      time: node.data?.time ||`تاریخ انجام هنوز وارد نشده `
+      time: node.data?.time || `تاریخ انجام هنوز وارد نشده `,
     });
   }, []);
 
@@ -177,41 +225,39 @@ function Flow() {
     },
     []
   );
-  const removeNodeById = (id) => {
-    setNodes((prevNodes) => {
-      const updatedNodes = prevNodes.filter(node => node.id !== id);
-      localStorage.setItem('nodes', JSON.stringify(updatedNodes));
-      return updatedNodes;
-    });
-  };
-  
-
-  const getNodeColor = (node) => {
-    return node.className === 'custom-node' ? 'purple' : '#bbb';
-  };
 
   return (
     <div style={{ height: '100%', backgroundColor: '#000000', position: 'relative' }}>
-      {message && (
-        <div className="message">
-          {message}
-        </div>
-      )}
+      {message && <div className="message">{message}</div>}
+
+      <button className="backup-button" onClick={handleBackup}>
+        <TfiSave />
+      </button>
+
+      <label className="restore-button">
+        <LuArchiveRestore />
+        <input
+          type="file"
+          accept="application/json"
+          onChange={handleRestore}
+          style={{ display: 'none' }}
+        />
+      </label>
 
       {tooltip.visible && (
-          <div className='tooltip'
+        <div
+          className="tooltip"
           style={{
-              top: tooltip.y + 10,
-              left: tooltip.x + 10,
+            top: tooltip.y + 10,
+            left: tooltip.x + 10,
           }}
         >
-            <div>{tooltip.description}</div>
+          <div>{tooltip.description}</div>
           <div style={{ marginTop: '5px', fontSize: '0.9em', color: '#aaa' }}>
-              {tooltip.time}
-            </div>
+            {tooltip.time}
+          </div>
         </div>
-    )}
-
+      )}
 
       <ReactFlow
         nodes={nodes}
@@ -230,7 +276,7 @@ function Flow() {
         fitView
       >
         <Controls />
-        <MiniMap nodeStrokeWidth={3} zoomable pannable nodeColor={getNodeColor} />
+        <MiniMap nodeStrokeWidth={3} zoomable pannable nodeColor={(node) => (node.className === 'custom-node' ? 'purple' : '#bbb')} />
       </ReactFlow>
     </div>
   );

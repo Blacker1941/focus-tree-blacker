@@ -3,7 +3,6 @@ body {
     -webkit-font-smoothing: auto;
     -moz-font-smoothing: auto;
     -moz-osx-font-smoothing: grayscale;
-    font-smoothing: auto;
     text-rendering: optimizeLegibility;
     font-smooth: always;
     -webkit-tap-highlight-color: transparent;
@@ -39,6 +38,7 @@ body {
   background-color: #ffffff;
   padding: 10px;
   border-radius: 5px;
+  z-index: 999;
 }
 .react-flow__attribution {
   display: none;
@@ -61,11 +61,31 @@ body {
   position: absolute;
   max-width: 400px;
 }
-.react-flow__controls-button:first-child {
-  border-radius: 5px 5px 0px 0px;
-  border: 1px solid white;
-}
 .react-flow__controls-button:last-child{
   border-radius: 0px 0px 5px 5px;
   border: 1px solid white;
+}
+.backup-button {
+  bottom: 150px;
+  position: absolute;
+  left: 15px;
+  z-index: 999;
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 5px;
+  width: 26px;
+  border: 0px solid;
+  border-bottom: 1px solid #eeeeee;
+  border-radius: 5px 5px 0px 0px;
+}
+.restore-button{
+  bottom: 119px;
+  position: absolute;
+  left: 15px;
+  z-index: 999;
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 5px;
+  border: 0px solid;
+  border-bottom: 1px solid #eeeeee;
 }

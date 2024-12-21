@@ -1,0 +1,1179 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "data": {
+        "label": "ساخت پروژه فکوس تری",
+        "description": "بدست اوردن تجربه ",
+        "time": "از 1403/9/28 تا 1403/9/28"
+      },
+      "position": {
+        "x": 186.63143589206132,
+        "y": -86.2778772050676
+      },
+      "type": "input",
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false,
+      "className": "custom-node"
+    },
+    {
+      "id": "2",
+      "data": {
+        "label": "بهینه شدن فکوس تری",
+        "description": "راحت کردن کار با فکوس تری",
+        "time": ""
+      },
+      "position": {
+        "x": 956.738177045336,
+        "y": 194.28921638878722
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "کامل کردن جزئیات سایت بلکر",
+        "description": "بدست اوردن تجربه",
+        "time": ""
+      },
+      "position": {
+        "x": -636.7554648992644,
+        "y": 234.14136487888877
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "کامل شدن جزئیات داشبورد ادمین",
+        "description": "بدست اوردن تجربه",
+        "time": ""
+      },
+      "position": {
+        "x": 368.024774281063,
+        "y": 880.1229439648857
+      },
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false,
+      "dragging": false,
+      "className": ""
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "ای پی آی کردن سایت بلکر ",
+        "description": "با این کار کامل تر میشه",
+        "time": ""
+      },
+      "position": {
+        "x": -644.1181233298289,
+        "y": -0.29026807367013774
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "data": {
+        "label": "دیباگ کردن ",
+        "description": "خب ببین باگ داره باگ های نامعلوم",
+        "time": ""
+      },
+      "position": {
+        "x": -640.9498032548926,
+        "y": 85.17855509100501
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "7",
+      "data": {
+        "label": "درست کردن مشکل نوبار",
+        "description": "صفحه هر جا که میره باید نو بار اون قسمتش طلایی بشه",
+        "time": ""
+      },
+      "position": {
+        "x": -466.33682365131136,
+        "y": 84.74080068949846
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "8",
+      "data": {
+        "label": "دیدن اموزش مموری ",
+        "description": "جدید ترین بخش که باید یاد گبیرم این قسمته ",
+        "time": ""
+      },
+      "position": {
+        "x": -162.94114186086907,
+        "y": 104.03234057147195
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "9",
+      "data": {
+        "label": "کامل کردن بخش داشبورد",
+        "description": "داشبورد یک کتگوری مخصوص هست تو پروژه که با انجام دادنش تجربمون بیشتر میشه",
+        "time": ""
+      },
+      "position": {
+        "x": 324.9482820548072,
+        "y": 216.0629628366284
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "10",
+      "data": {
+        "label": "کامل کردن بخش انالیز",
+        "description": "بخش دوم زیر هوم نیازه برم تحقیق کنم درموردش",
+        "time": ""
+      },
+      "position": {
+        "x": 244.69891057134106,
+        "y": 123.24270151019155
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false,
+      "className": ""
+    },
+    {
+      "id": "11",
+      "data": {
+        "label": "کامل کردن بخش  فروش",
+        "description": "زیر بخش انالیزه",
+        "time": ""
+      },
+      "position": {
+        "x": 407.41908809557344,
+        "y": 122.46413606749192
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "12",
+      "data": {
+        "label": "شروع بخش داشبورد",
+        "description": "1 2 3 شروع",
+        "time": "از 1403/9/28 تا 1403/9/28"
+      },
+      "position": {
+        "x": 325.6697166121073,
+        "y": 42.271895469425246
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false,
+      "className": "custom-node"
+    },
+    {
+      "id": "13",
+      "data": {
+        "label": "شروع بخش  کوئیک منو",
+        "description": "شروع  ",
+        "time": ""
+      },
+      "position": {
+        "x": 325.0471088239436,
+        "y": 265.027517915143
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "14",
+      "data": {
+        "label": "کامل کردن یوزر های جدید",
+        "description": "بخش دوم کوِئیک منو",
+        "time": ""
+      },
+      "position": {
+        "x": 179.89400858607507,
+        "y": 359.1973312908618
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "15",
+      "data": {
+        "label": "کامل کردن بخش تراکنش ها ",
+        "description": "چهارمین بخش ",
+        "time": ""
+      },
+      "position": {
+        "x": 351.25520343469515,
+        "y": 351.14094166389646
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "16",
+      "data": {
+        "label": "کامل کردن بخش ریپورت ها",
+        "description": "بخش ریپورت بخش بسیار مهمی میباشد",
+        "time": ""
+      },
+      "position": {
+        "x": 512.5254228600296,
+        "y": 350.583810778497
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "17",
+      "data": {
+        "label": "پایان بخش کوئیک منو",
+        "description": "وی با این کار تجربه کسب میکند",
+        "time": ""
+      },
+      "position": {
+        "x": 356,
+        "y": 448
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "18",
+      "data": {
+        "label": "کامل کردن بخش ایمیل",
+        "description": "جز ایکس پی چیزی گیرت نمیاد",
+        "time": ""
+      },
+      "position": {
+        "x": 171.33175294983567,
+        "y": 576.2704164390666
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "19",
+      "data": {
+        "label": "کامل کردن بخش فید بک",
+        "description": "زده فرییی زده فرییی",
+        "time": ""
+      },
+      "position": {
+        "x": 358.5535172989489,
+        "y": 579.2760821780196
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "20",
+      "data": {
+        "label": "کامل کردن بخش مسیج ها",
+        "description": "پیام چی اومده ؟",
+        "time": ""
+      },
+      "position": {
+        "x": 548.8157423506884,
+        "y": 580.2526186922512
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "21",
+      "data": {
+        "label": "شروع بخش نوتیف",
+        "description": "شروع خوبه",
+        "time": ""
+      },
+      "position": {
+        "x": 356.94839390722177,
+        "y": 507.84967475515356
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "22",
+      "data": {
+        "label": "شروع بخش استف",
+        "description": "جالبه در داشبرد که مخصوص استفه بخش استف داریم دوباره ",
+        "time": ""
+      },
+      "position": {
+        "x": 362.9685668669792,
+        "y": 653.9880118404617
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "23",
+      "data": {
+        "label": "کامل کردن بخش منیج",
+        "description": "منیج به به",
+        "time": ""
+      },
+      "position": {
+        "x": 197.73228540689996,
+        "y": 735.0538082348361
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "24",
+      "data": {
+        "label": "کامل کردن بخش انلیز استف ها",
+        "description": "فقط ممب رها نیاز به انالیز ندارن",
+        "time": ""
+      },
+      "position": {
+        "x": 362.9453911565332,
+        "y": 731.8300478967184
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "25",
+      "data": {
+        "label": "کامل کردن بخش ریپورت استف",
+        "description": "دادگاه عالی استف ها",
+        "time": ""
+      },
+      "position": {
+        "x": 548.6206705540571,
+        "y": 730.3143313302079
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "26",
+      "data": {
+        "label": "کامل کردن استف",
+        "description": "عالی",
+        "time": ""
+      },
+      "position": {
+        "x": 361.4925408560644,
+        "y": 818.2258921878112
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "27",
+      "data": {
+        "label": "هوک یوزر رو دیدم",
+        "description": "احتمالا یک نوع هوکه",
+        "time": ""
+      },
+      "position": {
+        "x": -169.10582822932957,
+        "y": 197.28621939485464
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "28",
+      "data": {
+        "label": "پروژه پاگانیست",
+        "description": "ایول پروژه جدید",
+        "time": ""
+      },
+      "position": {
+        "x": -166.94411342430328,
+        "y": 275.30475324955523
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "29",
+      "data": {
+        "label": "مفهوم هوک  با کمک پروژه",
+        "description": "هوک جالبه",
+        "time": ""
+      },
+      "position": {
+        "x": -163.54059797612462,
+        "y": 345.1297016268261
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "30",
+      "data": {
+        "label": "کانسپت پرروفیلر",
+        "description": "تجربه پلاس",
+        "time": ""
+      },
+      "position": {
+        "x": -157.37008231169983,
+        "y": 492.53883934991836
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "31",
+      "data": {
+        "label": "بکاپ گیری فایل های لوکال استورج",
+        "description": "دوست ندارم فراموش بشه",
+        "time": "از 1403/10/1 تا 1403/10/1"
+      },
+      "position": {
+        "x": 944.9958942128266,
+        "y": -9.57243878970943
+      },
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false,
+      "dragging": false,
+      "className": "custom-node"
+    },
+    {
+      "id": "32",
+      "data": {
+        "label": "هوک یوز لایوت افکت",
+        "description": "بازم هوک",
+        "time": ""
+      },
+      "position": {
+        "x": -154.8827806968344,
+        "y": 419.46639680168323
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "33",
+      "data": {
+        "label": "پروژه رستوران منو",
+        "description": "ایول رستوران",
+        "time": ""
+      },
+      "position": {
+        "x": -155,
+        "y": 567
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "34",
+      "data": {
+        "label": "یک پکیچ و دو باره هوک",
+        "description": "اخراشیم ",
+        "time": ""
+      },
+      "position": {
+        "x": -155,
+        "y": 634
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "35",
+      "data": {
+        "label": "کار با کانتکس ای پی ای",
+        "description": "جالبه مگه نه",
+        "time": ""
+      },
+      "position": {
+        "x": -157,
+        "y": 703
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "36",
+      "data": {
+        "label": "پروژه سی ام اس به فارسی با ای پی آی",
+        "description": "خوبه واقعا خوبه",
+        "time": ""
+      },
+      "position": {
+        "x": -153.59043102479245,
+        "y": 769.125
+      },
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "37",
+      "data": {
+        "label": "پروژه سبزلرن و 3 نوع سی ام اس و بک اند",
+        "description": "بک اند واقعا جالبش میکنه ",
+        "time": ""
+      },
+      "position": {
+        "x": -155.99999999999983,
+        "y": 852.2499999999995
+      },
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "38",
+      "data": {
+        "label": "فوت فن رزومه نویسی",
+        "description": "جون رزومه",
+        "time": ""
+      },
+      "position": {
+        "x": -153.99999999999983,
+        "y": 925.7499999999994
+      },
+      "measured": {
+        "width": 150,
+        "height": 36
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "39",
+      "data": {
+        "label": "درست کردن مشکل لیست محصولات ",
+        "description": "دم محسن گرم",
+        "time": ""
+      },
+      "position": {
+        "x": -818.6105395354642,
+        "y": 76.49454823462132
+      },
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "40",
+      "data": {
+        "label": "جایه گزینی لوکال هاست به ایندکس جی بی ",
+        "description": "خیلی بهتره",
+        "time": "از 1403/10/1 تا 1403/10/1"
+      },
+      "position": {
+        "x": 959.786580091914,
+        "y": 83.81821089346461
+      },
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": true,
+      "dragging": false,
+      "className": "custom-node"
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "5",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 1,
+        "strokeDasharray": "5,5",
+        "animation": "moveEdge 13s linear infinite"
+      },
+      "id": "xy-edge__1-5"
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__5-6"
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__5-7"
+    },
+    {
+      "source": "6",
+      "target": "3",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__6-3"
+    },
+    {
+      "source": "7",
+      "target": "3",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__7-3"
+    },
+    {
+      "source": "1",
+      "target": "8",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 1,
+        "strokeDasharray": "5,5",
+        "animation": "moveEdge 13s linear infinite"
+      },
+      "id": "xy-edge__1-8"
+    },
+    {
+      "source": "1",
+      "target": "12",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 1,
+        "strokeDasharray": "5,5",
+        "animation": "moveEdge 13s linear infinite"
+      },
+      "id": "xy-edge__1-12"
+    },
+    {
+      "source": "12",
+      "target": "10",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 1,
+        "strokeDasharray": "5,5",
+        "animation": "moveEdge 13s linear infinite"
+      },
+      "id": "xy-edge__12-10"
+    },
+    {
+      "source": "12",
+      "target": "11",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 1,
+        "strokeDasharray": "5,5",
+        "animation": "moveEdge 13s linear infinite"
+      },
+      "id": "xy-edge__12-11"
+    },
+    {
+      "source": "10",
+      "target": "9",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__10-9"
+    },
+    {
+      "source": "11",
+      "target": "9",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__11-9"
+    },
+    {
+      "source": "9",
+      "target": "13",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__9-13"
+    },
+    {
+      "source": "13",
+      "target": "14",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__13-14"
+    },
+    {
+      "source": "13",
+      "target": "15",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__13-15"
+    },
+    {
+      "source": "13",
+      "target": "16",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__13-16"
+    },
+    {
+      "source": "14",
+      "target": "17",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__14-17"
+    },
+    {
+      "source": "15",
+      "target": "17",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__15-17"
+    },
+    {
+      "source": "16",
+      "target": "17",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__16-17"
+    },
+    {
+      "source": "17",
+      "target": "21",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__17-21"
+    },
+    {
+      "source": "21",
+      "target": "18",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__21-18"
+    },
+    {
+      "source": "21",
+      "target": "19",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__21-19"
+    },
+    {
+      "source": "21",
+      "target": "20",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__21-20"
+    },
+    {
+      "source": "18",
+      "target": "22",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__18-22"
+    },
+    {
+      "source": "19",
+      "target": "22",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__19-22"
+    },
+    {
+      "source": "20",
+      "target": "22",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__20-22"
+    },
+    {
+      "source": "22",
+      "target": "23",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__22-23"
+    },
+    {
+      "source": "22",
+      "target": "24",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__22-24"
+    },
+    {
+      "source": "22",
+      "target": "25",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__22-25"
+    },
+    {
+      "source": "23",
+      "target": "26",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__23-26"
+    },
+    {
+      "source": "24",
+      "target": "26",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__24-26"
+    },
+    {
+      "source": "25",
+      "target": "26",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__25-26"
+    },
+    {
+      "source": "26",
+      "target": "4",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__26-4"
+    },
+    {
+      "source": "8",
+      "target": "27",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__8-27"
+    },
+    {
+      "source": "27",
+      "target": "28",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__27-28"
+    },
+    {
+      "source": "28",
+      "target": "29",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__28-29"
+    },
+    {
+      "source": "1",
+      "target": "31",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 1,
+        "strokeDasharray": "5,5",
+        "animation": "moveEdge 13s linear infinite"
+      },
+      "id": "xy-edge__1-31"
+    },
+    {
+      "source": "29",
+      "target": "32",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__29-32"
+    },
+    {
+      "source": "32",
+      "target": "30",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__32-30"
+    },
+    {
+      "source": "30",
+      "target": "33",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__30-33"
+    },
+    {
+      "source": "33",
+      "target": "34",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__33-34"
+    },
+    {
+      "source": "34",
+      "target": "35",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__34-35"
+    },
+    {
+      "source": "35",
+      "target": "36",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__35-36"
+    },
+    {
+      "source": "36",
+      "target": "37",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__36-37"
+    },
+    {
+      "source": "37",
+      "target": "38",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__37-38"
+    },
+    {
+      "source": "5",
+      "target": "39",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__5-39"
+    },
+    {
+      "source": "39",
+      "target": "3",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__39-3"
+    },
+    {
+      "source": "31",
+      "target": "40",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 1,
+        "strokeDasharray": "5,5",
+        "animation": "moveEdge 13s linear infinite"
+      },
+      "id": "xy-edge__31-40"
+    },
+    {
+      "source": "40",
+      "target": "2",
+      "style": {
+        "stroke": "gray",
+        "strokeWidth": 0.5
+      },
+      "id": "xy-edge__40-2"
+    }
+  ]
+}
