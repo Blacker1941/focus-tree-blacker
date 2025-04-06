@@ -34,31 +34,24 @@ function Flow() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    const updatedNodes = initialNodes.map((newNode) => {
-      const existingNode = nodes.find((node) => node.id === newNode.id);
+    const nodesInLocalStorage = JSON.parse(localStorage.getItem('nodes')) || [];
+    const nodeIdsInLocalStorage = nodesInLocalStorage.map((node) => node.id);
+    const validNodeIds = initialNodes.map((node) => node.id);
 
-      const updatedData = { ...newNode.data };
-      if (updatedData.label) {
-        updatedData.label = updatedData.label.replace(/لوکاس هاست/g, 'ایندکس بی جی');
-      }
-      if (updatedData.description) {
-        updatedData.description = updatedData.description.replace(/لوکاس هاست/g, 'ایندکس بی جی');
-      }
-
-      return existingNode
-        ? { ...existingNode, data: { ...existingNode.data, ...updatedData } }
-        : { ...newNode, data: updatedData };
-    });
-
-    const isNodesChanged = !updatedNodes.every((node, index) =>
-      JSON.stringify(node) === JSON.stringify(nodes[index])
+    const nodesToRemove = nodeIdsInLocalStorage.filter(
+      (id) => !validNodeIds.includes(id)
     );
 
-    if (isNodesChanged) {
-      setNodes(updatedNodes);
+    if (nodesToRemove.length > 0) {
+      const updatedNodes = nodesInLocalStorage.filter(
+        (node) => !nodesToRemove.includes(node.id)
+      );
       localStorage.setItem('nodes', JSON.stringify(updatedNodes));
+      setNodes(updatedNodes);
+      setMessage('نودهای اضافی از localStorage حذف شدند.');
+      setTimeout(() => setMessage(''), 3000);
     }
-  }, [initialNodes, nodes]);
+  }, []);
 
   const onNodesChange = useCallback(
     (changes) => {
